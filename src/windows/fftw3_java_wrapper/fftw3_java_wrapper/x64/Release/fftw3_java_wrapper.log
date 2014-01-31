@@ -1,0 +1,31 @@
+﻿Build started 31.01.2014 15:18:43.
+     1>Project "C:\Users\Администратор\documents\visual studio 2010\Projects\fftw3_java_wrapper\fftw3_java_wrapper\fftw3_java_wrapper.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Release\fftw3_java_wrapper.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "x64\Release\fftw3_java_wrapper.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       PreBuildEvent:
+         swig -java -package main fftw.i
+         :VCEnd
+       ClCompile:
+         d:\MSVC10\VC\bin\x86_amd64\CL.exe /c /I"C:\Program Files\Java\jdk1.7.0_45\include\win32" /I"C:\Program Files\Java\jdk1.7.0_45\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc100.pdb" /Gd /TC /errorReport:prompt "..\..\..\..\..\..\Администратор\Documents\Visual Studio 2010\Projects\fftw3_java_wrapper\fftw3_java_wrapper\fftw.c" "..\..\..\..\..\..\Администратор\Documents\Visual Studio 2010\Projects\fftw3_java_wrapper\fftw3_java_wrapper\fftw_wrap.c"
+         fftw.c
+         fftw_wrap.c
+     1>..\..\..\..\..\..\Администратор\Documents\Visual Studio 2010\Projects\fftw3_java_wrapper\fftw3_java_wrapper\fftw_wrap.c(278): warning C4013: 'calculate' undefined; assuming extern returning int
+       Link:
+         d:\MSVC10\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Администратор\documents\visual studio 2010\Projects\fftw3_java_wrapper\x64\Release\fftwlib.dll" /NOLOGO /LIBPATH:./FFTW_LIBS/x64 "libfftw3-3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Release\fftwlib.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Администратор\documents\visual studio 2010\Projects\fftw3_java_wrapper\x64\Release\fftwlib.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Администратор\documents\visual studio 2010\Projects\fftw3_java_wrapper\x64\Release\fftwlib.lib" /MACHINE:X64 /DLL x64\Release\fftw.obj
+         x64\Release\fftw_wrap.obj
+            Creating library C:\Users\Администратор\documents\visual studio 2010\Projects\fftw3_java_wrapper\x64\Release\fftwlib.lib and object C:\Users\Администратор\documents\visual studio 2010\Projects\fftw3_java_wrapper\x64\Release\fftwlib.exp
+         Generating code
+         Finished generating code
+         fftw3_java_wrapper.vcxproj -> C:\Users\Администратор\documents\visual studio 2010\Projects\fftw3_java_wrapper\x64\Release\fftwlib.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Администратор\documents\visual studio 2010\Projects\fftw3_java_wrapper\x64\Release\fftwlib.dll;#2" /manifest x64\Release\fftwlib.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\fftw3_java_wrapper.unsuccessfulbuild".
+         Touching "x64\Release\fftw3_java_wrapper.lastbuildstate".
+     1>Done Building Project "C:\Users\Администратор\documents\visual studio 2010\Projects\fftw3_java_wrapper\fftw3_java_wrapper\fftw3_java_wrapper.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.35
